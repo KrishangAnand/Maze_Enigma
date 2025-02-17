@@ -4,7 +4,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile0`, function (sprite, l
 scene.onOverlapTile(SpriteKind.Player, assets.tile`instrument4`, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`transparency16`)
     question4 = game.askForString("what gas do plants take in for photosynthesis? give a space between both words")
-    if (question4 == "Carbon dioxide") {
+    if (question4 == "carbon dioxide") {
         info.changeScoreBy(1)
         game.showLongText("correct", DialogLayout.Bottom)
     } else {
@@ -15,7 +15,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`instrument4`, function (sprit
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.crowd2, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`transparency16`)
     Question1 = game.askForString("What force keeps planets in orbit around the sun")
-    if (Question1 == "Gravity") {
+    if (Question1 == "gravity") {
         info.changeScoreBy(1)
         game.showLongText("correct", DialogLayout.Bottom)
     } else {
@@ -26,7 +26,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.builtin.crowd2, function (sprite,
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.crowd3, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`transparency16`)
     Question1 = game.askForString("In Shakespeare’s play Hamlet, what is the name of Hamlet’s mother?")
-    if (Question1 == "Gertrude") {
+    if (Question1 == "gertrude") {
         info.changeScoreBy(1)
         game.showLongText("correct", DialogLayout.Bottom)
     } else {
@@ -48,7 +48,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.builtin.crowd8, function (sprite,
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.crowd5, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`transparency16`)
     Question1 = game.askForString("Which is the largest ocean on Earth (only mame)")
-    if (Question1 == "Pacific") {
+    if (Question1 == "pacific") {
         info.changeScoreBy(1)
         game.showLongText("correct", DialogLayout.Bottom)
     } else {
@@ -59,7 +59,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.builtin.crowd5, function (sprite,
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.crowd4, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`transparency16`)
     Question1 = game.askForString("Who wrote Harry Potter and the Sorcerer’s Stone")
-    if (Question1 == "J.K. Rowling") {
+    if (Question1 == "j.k Rowling") {
         info.changeScoreBy(1)
         game.showLongText("correct", DialogLayout.Bottom)
     } else {
@@ -92,7 +92,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`fan1`, function (sprite, loca
 scene.onOverlapTile(SpriteKind.Player, assets.tile`instrument0`, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`transparency16`)
     question4 = game.askForString(" What is the longest river in the world")
-    if (question4 == "Nile") {
+    if (question4 == "nile") {
         info.changeScoreBy(1)
         game.showLongText("correct", DialogLayout.Bottom)
     } else {
@@ -103,7 +103,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`instrument0`, function (sprit
 scene.onOverlapTile(SpriteKind.Player, assets.tile`fan3`, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`transparency16`)
     Quesion2 = game.askForString("What is capital of France ")
-    if (Quesion2 == "PARIS") {
+    if (Quesion2 == "paris") {
         info.changeScoreBy(1)
         game.showLongText("correct", DialogLayout.Bottom)
     } else {
